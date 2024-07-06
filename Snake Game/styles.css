@@ -1,0 +1,35 @@
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    background: #57d3de76;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+}
+
+.apple {
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+}
+
+button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 2rem;
+    background: rgba(76, 137, 188, 0.703);
+}
